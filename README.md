@@ -8,8 +8,9 @@ The data set is used for the project :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Files
-{\bf run_analysis.R} : 
-- This can be run as long as the unzipped data is in your working directory 
+run_analysis.R} : 
+- This can be run as long as the unzipped data is in your working directory
+- THis R script requires packages "data.table" and "plyr" 
 - This R script does the following : 
 
  1. Merges the training and the test sets to create one data set. 
@@ -25,7 +26,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 - The output of this R script is "tidydata.txt"
 
-{\bf CodeBook.md} : 
+CodeBook.md} : 
 
 This describes the variables, the data, and any transformations or work that
 I performed to clean up the data 

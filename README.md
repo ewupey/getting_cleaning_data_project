@@ -10,7 +10,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Files
 run_analysis.R : 
 - This can be run as long as the unzipped data is in your working directory
-- This R script requires packages "data.table" and "plyr" 
+- This R script requires "data.table" and "plyr" libraries
 - This R script performs the analysis described in the 5 steps  
 - The output of this R script is "tidydata.txt"
 

@@ -10,7 +10,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Files
 run_analysis.R : 
 - This can be run as long as the unzipped data is in your working directory
-- THis R script requires packages "data.table" and "plyr" 
+- This R script requires packages "data.table" and "plyr" 
 - This R script does the following : 
 
  1. Merges the training and the test sets to create one data set. 

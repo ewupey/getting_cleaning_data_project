@@ -29,18 +29,18 @@ run_analysis.R does the following 5 steps :
 
 1. Merges the training and the test sets to create one data set: 
 
-- X_train, y_train, X_test, y_test, subject_train, subject_test, features, and
+X_train, y_train, X_test, y_test, subject_train, subject_test, features, and
 activityLavels are loaded data
 
-- train_dt : merge of X_train, subject_train, and y_train
+train_dt : merge of X_train, subject_train, and y_train
 
-- test_dt : merge of X-test, subject_test, and y_test
+test_dt : merge of X-test, subject_test, and y_test
 
-- Data : merge of train_dt and test_dt
+Data : merge of train_dt and test_dt
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement:
 
-- subData : extracted data in step 2
+subData : extracted data in step 2
 
 3. Uses descriptive activity names to name the activities in the data set.
 
